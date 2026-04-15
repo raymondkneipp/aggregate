@@ -1,0 +1,20 @@
+# Lambda build artifacts
+*.zip
+bootstrap
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/environments/prod.tfvars
+
+# Environment / secrets
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# Go
+tmp/
